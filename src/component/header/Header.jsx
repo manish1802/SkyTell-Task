@@ -13,7 +13,6 @@ export default function Header() {
     "U.S.A",
     "Russia",
   ];
-  const [valu, setValue] = useState()
   const handleclick = () => {
     setOpen(!open);
   };
