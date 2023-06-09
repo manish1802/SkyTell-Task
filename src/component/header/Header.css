@@ -5,13 +5,12 @@
     padding: 10px;
     background-color: dodgerblue;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     position: relative;
 }
 .dropdown{
-  width: 10%;
+  width: 25%;
   background-color: dodgerblue;
-  border: none;
   padding: 10px;
   color: white;
   font-weight: 600;
@@ -19,19 +18,32 @@
   box-shadow: 0px 0px 2px 0px rgb(235, 231, 231);
   position: relative;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
   
 .checkboxcontainer{
   background-color: #fff;
-  position: absolute;
-  width: 10%;
-  display: flex;
-  padding: 5px 10px 5px 10px;
-  flex-direction: column;
-  margin-top: 3%;
+  width: 96%;
+  height: 230px;
+  margin:auto;
+  margin-top: 4%;
   box-shadow: 0px 0px 3px 0px rgb(207, 203, 203);
   cursor: pointer;
+  overflow-y: scroll;
 }
-.inputfield{
+.inputbox{
   padding: 10px;
+  cursor: pointer;
+}
+.maincontainer{
+  width: 25%;
+  height: 250px;
+  margin-top: 3.5%;
+  box-shadow: 0px 0px 3px 0px rgb(165, 162, 162);
+  position: absolute;
+}
+.inputcheckbox{
+  width: 20px;
+  height: 20px;
 }
